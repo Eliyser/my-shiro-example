@@ -1,0 +1,2 @@
+1. 学习缓存，把https://github.com/zhangkaitao/es/blob/master/common/src/main/java/com/sishuok/es/common/cache/BaseCacheAspect.java看懂
+2. 用Spring Security集成OAuth2：https://blog.csdn.net/z57354658/article/details/82108263

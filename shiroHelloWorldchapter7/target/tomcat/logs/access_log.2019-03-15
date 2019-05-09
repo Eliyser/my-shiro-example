@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [15/Mar/2019:15:32:51 +0800] "GET /shiroHelloWorld-chapter7 HTTP/1.1" 302 - http-bio-8080-exec-3 0
+0:0:0:0:0:0:0:1 - - [15/Mar/2019:15:32:52 +0800] "GET /shiroHelloWorld-chapter7/ HTTP/1.1" 200 52 http-bio-8080-exec-4 1643

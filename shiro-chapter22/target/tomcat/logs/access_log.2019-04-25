@@ -1,0 +1,14 @@
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:11:42:39 +0800] "GET /chapter22 HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:11:43:14 +0800] "GET /chapter22/ HTTP/1.1" 302 - http-bio-8080-exec-2 34671
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:11:43:37 +0800] "GET /chapter22/login;JSESSIONID=587f77e5-a14d-4a40-a6b4-aebff7f9d1e8 HTTP/1.1" 200 980 http-bio-8080-exec-3 22979
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:11:43:37 +0800] "GET /chapter22/static/js/jquery-1.11.0.min.js HTTP/1.1" 304 - http-bio-8080-exec-5 57
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:11:43:39 +0800] "GET /chapter22/jcaptcha.jpg HTTP/1.1" 200 1305 http-bio-8080-exec-4 2615
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:11:43:39 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-7 0
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:11:44:17 +0800] "POST /chapter22/login;JSESSIONID=587f77e5-a14d-4a40-a6b4-aebff7f9d1e8 HTTP/1.1" 302 - http-bio-8080-exec-8 25552
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:11:44:17 +0800] "GET /chapter22/ HTTP/1.1" 200 1656 http-bio-8080-exec-9 298
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:11:44:18 +0800] "GET /chapter22/static/css/layout-default-latest.css HTTP/1.1" 304 - http-bio-8080-exec-10 23
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:11:44:18 +0800] "GET /chapter22/welcome HTTP/1.1" 200 150 http-bio-8080-exec-10 39
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:11:44:18 +0800] "GET /chapter22/static/js/jquery.layout-latest.min.js HTTP/1.1" 304 - http-bio-8080-exec-1 80
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:11:44:29 +0800] "GET /chapter22/login HTTP/1.1" 200 985 http-bio-8080-exec-10 7215
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:11:44:30 +0800] "GET /chapter22/login HTTP/1.1" 200 985 http-bio-8080-exec-4 1962
+0:0:0:0:0:0:0:1 - - [25/Apr/2019:11:44:30 +0800] "GET /chapter22/jcaptcha.jpg HTTP/1.1" 200 1223 http-bio-8080-exec-4 47

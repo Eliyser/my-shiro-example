@@ -1,0 +1,3 @@
+com\haien\chapter23\core\ClientSavedRequest.class
+com\haien\chapter23\remote\RemoteServiceInterface.class
+com\haien\chapter23\remote\PermissionContext.class

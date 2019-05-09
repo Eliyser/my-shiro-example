@@ -1,0 +1,4 @@
+com\haien\chapter23\client\ClientAuthenticationFilter.class
+com\haien\chapter23\client\ClientShiroFilterFactoryBean.class
+com\haien\chapter23\client\ClientSessionDAO.class
+com\haien\chapter23\client\ClientRealm.class

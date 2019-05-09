@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!--客户端俩应用都需要管理会话，如获取会话后存储会话属性；而会话的维护交给server模块-->
+    <bean id="remoteService"
+          class="org.springframework.remoting.httpinvoker.HttpInvokerProxyFactoryBean">
+        <!--服务url：/server/remoteService;远程服务暴露的地址、为服务器端的服务提供的url?-->
+        <property name="serviceUrl" value="${client.remote.service.url}"/>
+        <!--core模块的会话dao接口-->
+        <property name="serviceInterface"
+                  value="com.haien.chapter23.remote.RemoteServiceInterface"/>
+    </bean>
+
+</beans>

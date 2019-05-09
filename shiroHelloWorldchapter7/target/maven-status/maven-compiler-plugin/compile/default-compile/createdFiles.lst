@@ -1,0 +1,7 @@
+com\haien\shiroHelloWorldchapter7\web\AuthenticatedServlet.class
+com\haien\shiroHelloWorldchapter7\web\FormFilterLoginServlet.class
+com\haien\shiroHelloWorldchapter7\web\RoleServlet.class
+com\haien\shiroHelloWorldchapter7\web\LoginServlet.class
+com\haien\shiroHelloWorldchapter7\web\LogoutServlet.class
+com\haien\shiroHelloWorldchapter7\web\PermissionServlet.class
+com\haien\shiroHelloWorldchapter7\web\UnAuthorizedServlet.class

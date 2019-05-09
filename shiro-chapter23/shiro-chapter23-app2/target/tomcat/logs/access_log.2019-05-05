@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [05/May/2019:16:18:57 +0800] "GET /chapter23-app2 HTTP/1.1" 302 - http-bio-10080-exec-2 0
+0:0:0:0:0:0:0:1 - - [05/May/2019:16:19:57 +0800] "GET /chapter23-app2/ HTTP/1.1" 500 7320 http-bio-10080-exec-3 60327
+0:0:0:0:0:0:0:1 - - [05/May/2019:16:19:58 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-10080-exec-4 0
+0:0:0:0:0:0:0:1 - - [05/May/2019:17:29:31 +0800] "GET /chapter23-app2 HTTP/1.1" 302 - http-bio-10080-exec-1 0
+0:0:0:0:0:0:0:1 - - [05/May/2019:17:29:39 +0800] "GET /chapter23-app2/ HTTP/1.1" 200 - http-bio-10080-exec-3 7254
+127.0.0.1 - - [05/May/2019:17:30:40 +0800] "GET /chapter23-app2/ HTTP/1.0" 200 - http-bio-10080-exec-5 6355
+127.0.0.1 - - [05/May/2019:17:37:29 +0800] "GET /chapter23-app2/ HTTP/1.0" 200 - http-bio-10080-exec-6 5127
+0:0:0:0:0:0:0:1 - - [05/May/2019:17:37:49 +0800] "GET /chapter23-app2/ HTTP/1.1" 200 - http-bio-10080-exec-7 3699
+0:0:0:0:0:0:0:1 - - [05/May/2019:17:41:49 +0800] "GET /chapter23-app2/ HTTP/1.1" 302 - http-bio-10080-exec-1 21347

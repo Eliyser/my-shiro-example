@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [17/Mar/2019:17:19:24 +0800] "GET /shiro-chapter16 HTTP/1.1" 404 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [17/Mar/2019:17:26:26 +0800] "GET /shiro-chapter16 HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [17/Mar/2019:17:26:26 +0800] "GET /shiro-chapter16/ HTTP/1.1" 302 - http-bio-8080-exec-2 381
+0:0:0:0:0:0:0:1 - - [17/Mar/2019:17:26:26 +0800] "GET /shiro-chapter16/login;JSESSIONID=0dd316e4-2e76-4fcf-958f-94a7d3e9380e HTTP/1.1" 500 9393 http-bio-8080-exec-3 111
+0:0:0:0:0:0:0:1 - - [17/Mar/2019:17:28:59 +0800] "GET /shiro-chapter16/login;JSESSIONID=0dd316e4-2e76-4fcf-958f-94a7d3e9380e HTTP/1.1" 500 9393 http-bio-8080-exec-1 376

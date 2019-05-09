@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--日志配置文件，只向控制台输出-->
+<Configuration status="error">
+    <properties>
+        <property name="FORMAT">%d{HH:mm:ss.SSS} [%t] %-5p [%c] - %m%n</property>
+    </properties>
+
+    <Appenders>
+        <Console name="Console">
+            <PatternLayout pattern="${FORMAT}"/>
+        </Console>
+    </Appenders>
+
+    <Loggers>
+        <AsyncRoot level="debug">
+            <appender-ref ref="Console"/>
+        </AsyncRoot>
+
+        <AsyncLogger name="com.thz.dao" level="debug" additivity="false"></AsyncLogger>
+    </Loggers>
+</Configuration>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

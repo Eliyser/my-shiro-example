@@ -1,0 +1,81 @@
+2019-03-11 15:35:56,459 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2019-03-11 15:35:57,573 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2019-03-11 15:36:16,658 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2019-03-11 15:36:16,662 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2019-03-11 15:36:16,662 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2019-03-11 15:36:37,145 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /chapter15-server/
+2019-03-11 15:36:37,145 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /chapter15-server/
+2019-03-11 15:36:55,586 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - AcceptUsersAuthenticationHandler successfully authenticated casuser+password
+2019-03-11 15:36:55,587 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated casuser with credentials [casuser+password].
+2019-03-11 15:36:55,590 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [casuser+password]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Mon Mar 11 15:36:55 CST 2019
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2019-03-11 15:36:55,595 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-1-dkmFl4cNH7ps50EWpSXNXOLrj6eYdAAnuKZuguqQ0UjZjiIpza-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Mon Mar 11 15:36:55 CST 2019
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2019-03-11 15:37:56,810 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2019-03-11 15:37:56,811 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2019-03-11 15:51:01,561 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2019-03-11 15:51:03,202 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2019-03-11 15:51:21,947 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2019-03-11 15:51:21,950 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2019-03-11 15:51:21,950 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2019-03-11 15:52:38,693 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /chapter15-server/
+2019-03-11 15:52:38,693 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /chapter15-server/
+2019-03-11 15:52:44,611 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - AcceptUsersAuthenticationHandler successfully authenticated zhang+password
+2019-03-11 15:52:44,613 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated zhang with credentials [zhang+password].
+2019-03-11 15:52:44,620 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [zhang+password]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Mon Mar 11 15:52:44 CST 2019
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2019-03-11 15:52:44,630 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-1-9tX4oDUfAWi7rd5h2yaPmyJ2YR5TEP3Ba4L6KSLVLapSTm7SNa-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Mon Mar 11 15:52:44 CST 2019
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2019-03-11 16:50:13,800 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2019-03-11 16:50:14,961 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2019-03-11 16:50:34,046 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2019-03-11 16:50:34,050 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2019-03-11 16:50:34,050 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2019-03-11 16:50:45,837 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /chapter15-server/
+2019-03-11 16:50:45,837 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /chapter15-server/
+2019-03-11 16:52:14,246 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2019-03-11 16:52:14,246 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2019-03-11 16:53:08,354 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2019-03-11 16:53:12,261 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2019-03-12 14:43:36,527 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2019-03-12 14:43:42,218 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now

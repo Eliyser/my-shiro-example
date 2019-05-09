@@ -1,0 +1,6 @@
+com\haien\shiroChapter8\web\filter\AnyRolesFilter.class
+com\haien\shiroChapter8\web\filter\MyAccessControlFilter.class
+com\haien\shiroChapter8\web\filter\MyOncePerRequestFilter.class
+com\haien\shiroChapter8\web\filter\MyAdviceFilter.class
+com\haien\shiroChapter8\web\filter\MyPathMatchingFilter.class
+com\haien\shiroChapter8\web\filter\FormLoginFilter.class

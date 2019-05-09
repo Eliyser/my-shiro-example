@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+       http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <!--use-default-filters：使用默认过滤器，它会扫描包含@Service、@Component、
+    @Repository、@Controller注解的类；不使用则需用include-filter指定扫描哪些类-->
+    <context:component-scan base-package="com.haien.shirochapter12.web" use-default-filters="false">
+        <!--指定只扫描base-package下有@Controller的类-->
+        <context:include-filter type="annotation"
+                                expression="org.springframework.stereotype.Controller"/>
+        <!--指定只扫描base-package下有@ControllerAdvice的类-->
+        <context:include-filter type="annotation"
+                 expression="org.springframework.web.bind.annotation.ControllerAdvice"/>
+    </context:component-scan>
+
+    <!--添加shiro spring aop权限注解的支持，即使用注解式授权-->
+    <aop:config proxy-target-class="true"></aop:config> <!--表示使用代理类-->
+    <bean
+       class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor">
+        <property name="securityManager" ref="securityManager"/>
+    </bean>
+
+    <!--启动SpringMvc注解功能，完成请求和注解controller类的映射-->
+    <mvc:annotation-driven/>
+    <mvc:view-controller path="/" view-name="index"/> <!--url映射视图，无需通过控制器-->
+
+    <!-- 默认的视图解析器 在上边的解析错误时使用 (默认使用html)- -->
+    <bean id="defaultViewResolver"
+          class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
+        <property name="contentType" value="text/html"/>
+        <property name="prefix" value="/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+    <!-- 控制器异常处理 -->
+    <bean id="exceptionHandlerExceptionResolver"
+     class="org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver">
+    </bean>
+    <bean class="com.haien.shirochapter12.web.exception.DefaultExceptionHandler"/>
+
+</beans>

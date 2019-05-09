@@ -1,0 +1,13 @@
+0:0:0:0:0:0:0:1 - - [10/Apr/2019:17:14:38 +0800] "GET /shiro-chapter21 HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [10/Apr/2019:17:14:39 +0800] "GET /shiro-chapter21/ HTTP/1.1" 302 - http-bio-8080-exec-2 454
+0:0:0:0:0:0:0:1 - - [10/Apr/2019:17:14:41 +0800] "GET /shiro-chapter21/login;JSESSIONID=c464de29-4c1e-49b9-86fb-338b5b4a81f3 HTTP/1.1" 200 467 http-bio-8080-exec-3 2449
+0:0:0:0:0:0:0:1 - - [10/Apr/2019:17:14:42 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [10/Apr/2019:17:15:00 +0800] "POST /shiro-chapter21/login;JSESSIONID=c464de29-4c1e-49b9-86fb-338b5b4a81f3 HTTP/1.1" 302 - http-bio-8080-exec-6 643
+0:0:0:0:0:0:0:1 - - [10/Apr/2019:17:15:01 +0800] "GET /shiro-chapter21/ HTTP/1.1" 200 1710 http-bio-8080-exec-7 1010
+0:0:0:0:0:0:0:1 - - [10/Apr/2019:17:15:01 +0800] "GET /shiro-chapter21/static/css/layout-default-latest.css HTTP/1.1" 200 6711 http-bio-8080-exec-8 81
+0:0:0:0:0:0:0:1 - - [10/Apr/2019:17:15:01 +0800] "GET /shiro-chapter21/static/js/jquery-1.11.0.min.js HTTP/1.1" 200 96385 http-bio-8080-exec-9 53
+0:0:0:0:0:0:0:1 - - [10/Apr/2019:17:15:02 +0800] "GET /shiro-chapter21/static/js/jquery.layout-latest.min.js HTTP/1.1" 200 64002 http-bio-8080-exec-10 122
+0:0:0:0:0:0:0:1 - - [10/Apr/2019:17:15:02 +0800] "GET /shiro-chapter21/welcome HTTP/1.1" 200 150 http-bio-8080-exec-8 333
+0:0:0:0:0:0:0:1 - - [10/Apr/2019:17:16:22 +0800] "GET /shiro-chapter21/ HTTP/1.1" 200 1483 http-bio-8080-exec-5 415
+0:0:0:0:0:0:0:1 - - [10/Apr/2019:17:16:22 +0800] "GET /shiro-chapter21/welcome HTTP/1.1" 200 150 http-bio-8080-exec-5 13
+0:0:0:0:0:0:0:1 - - [10/Apr/2019:17:16:25 +0800] "GET /shiro-chapter21/runas HTTP/1.1" 500 7219 http-bio-8080-exec-1 138

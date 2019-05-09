@@ -1,0 +1,8 @@
+Performance Statistics   2019-03-11 15:36:00 - 2019-03-11 15:37:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AUTHENTICATE                                             7.0           7           7         0.0           1
+CREATE_TICKET_GRANTING_TICKET                           14.0          14          14         0.0           1
+
+Performance Statistics   2019-03-11 16:51:00 - 2019-03-11 16:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+

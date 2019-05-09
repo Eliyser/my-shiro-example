@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!--会话dao的实现类-->
+    <bean id="remoteService" class="com.haien.chapter23.remote.RemoteService"/>
+
+    <!--配置远程服务，HttpInvokerServiceExporter对象将被注册为HttpRequestHandler，也就是请求处理类，
+    当指定的url（此处为/remoteService）到达时，将被用户构建的HttpInvokerServiceExporter对象处理-->
+    <!--name：服务名称-->
+    <bean name="/remoteService"
+          class="org.springframework.remoting.httpinvoker.HttpInvokerServiceExporter">
+        <!--服务类--> <!--接口；在core模块-->
+        <property name="serviceInterface" value="com.haien.chapter23.remote.RemoteServiceInterface"/>
+        <!--服务实现类，一般引用其他bean--> <!--实现；在本模块-->
+        <property name="service" ref="remoteService"/>
+    </bean>
+</beans>

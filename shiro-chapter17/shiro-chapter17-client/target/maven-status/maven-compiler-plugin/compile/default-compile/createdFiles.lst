@@ -1,0 +1,4 @@
+com\haien\chapter17\oauth2\OAuth2AuthenticationException.class
+com\haien\chapter17\oauth2\OAuth2Realm.class
+com\haien\chapter17\oauth2\OAuth2Token.class
+com\haien\chapter17\oauth2\OAuth2AuthenticationFilter.class

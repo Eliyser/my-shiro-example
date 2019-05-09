@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shiro-chapter23-app1" />
+        <module name="shiro-chapter23-app2" />
+        <module name="shiro-chapter23-client" />
+        <module name="shiro-chapter23-core" />
+        <module name="shiro-chapter23-nginx" />
+        <module name="shiro-chapter23-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="shiro-chapter23-client" target="1.7" />
+      <module name="shirochapter23client" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

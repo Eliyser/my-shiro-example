@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [04/May/2019:16:50:48 +0800] "GET /chapter23-server HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [04/May/2019:16:50:49 +0800] "GET /chapter23-server/ HTTP/1.1" 302 - http-bio-8080-exec-3 665
+0:0:0:0:0:0:0:1 - - [04/May/2019:16:50:51 +0800] "GET /chapter23-server/login;JSESSIONID=81a33929-3735-483e-85f6-40ffd3e12773 HTTP/1.1" 200 439 http-bio-8080-exec-4 2289
+0:0:0:0:0:0:0:1 - - [04/May/2019:16:50:51 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-5 0
+127.0.0.1 - - [04/May/2019:16:51:11 +0800] "GET /chapter23-server/ HTTP/1.0" 302 - http-bio-8080-exec-7 47
+127.0.0.1 - - [04/May/2019:16:51:11 +0800] "GET /chapter23-server/login HTTP/1.0" 200 439 http-bio-8080-exec-8 46
+127.0.0.1 - - [04/May/2019:16:54:59 +0800] "GET /chapter23-server/ HTTP/1.0" 302 - http-bio-8080-exec-9 62
+127.0.0.1 - - [04/May/2019:16:54:59 +0800] "GET /chapter23-server/login HTTP/1.0" 200 439 http-bio-8080-exec-10 50
